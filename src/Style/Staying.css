@@ -1,0 +1,26 @@
+/* Initial state for the image */
+.change{
+    opacity: 0;
+    transform: translate(0, 4vh);
+    transition: all 1s;
+}
+.change.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  
+
+
+
+/* .image-change {
+    transition: transform 1s ease, opacity 0.5s ease; 
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .image-change-scrolled {
+    transition: transform 1s ease, opacity 0.5s ease; 
+    transform: translateY(-100%); 
+    opacity: 1; 
+  } */
+  
